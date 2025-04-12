@@ -1,0 +1,13 @@
+{
+  "name": "noobfield",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx @11ty/eleventy --serve",
+    "build": "npx @11ty/eleventy"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

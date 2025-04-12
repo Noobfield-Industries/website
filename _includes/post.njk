@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{ title }}</title>
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/5/w3.css">
+</head>
+<body>
+  <header class="w3-bar w3-teal w3-bar">
+    <a href="/" class="w3-bar-item w3-button w3-hover-white w3-mobile">The Noobfield Blog</a>
+    <a href="/maps" class="w3-bar-item w3-button w3-hover-white w3-mobile">ROBLOX Maps</a>
+    <div class="w3-right">
+      <a href="/socials" class="w3-bar-item w3-button w3-hover-white w3-mobile">Socials</a>
+      <a href="/socials" class="w3-bar-item w3-button w3-hover-white w3-mobile">Fork this on GitHub</a>
+    </div>
+  </header>
+  <main class="w3-container">
+    <h1>{{ title }}</h1>
+    <p class="w3-small">
+      By {{ author }}
+      {# Might as well be Noobfield, by the way. #}
+    </p>
+    <hr>
+    {{ content | safe }}
+  </main>
+</body>
+</html>
